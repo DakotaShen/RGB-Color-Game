@@ -1,0 +1,103 @@
+body{
+	background-color: #1a0000;
+	margin:0;
+}
+
+.square{
+	width: 30%;
+	background: green; 
+	padding-bottom: 30%;
+	height: 30%;
+	float: left;
+	margin:1.66%;
+	border-radius: 16%;
+	transition:background 0.8s;
+}
+
+#container{
+	margin: 20px auto;
+	max-width: 460px;
+}
+
+#headChange{
+	text-align:center;
+	color: white;
+	background-color:rgb(255, 230, 230); 
+	margin: 0;  
+	font-family: "Lucida Console";
+	text-transform: uppercase;;
+	font-weight: normal;
+	line-height: 1.1;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+#showColor{
+	font-size: 200%;
+}
+
+#message{
+	display: inline-block;
+	width:20%;
+	color:black;
+	font-size:20px;
+	font-family:"Lucida Console"; 
+	/*line-height: 1.1;*/
+}
+
+#headLine{
+	background: white;
+	text-align: center;
+	margin: 0;
+	height:auto;
+}
+
+button:hover{
+	/*color:black;*/
+	background-color: rgb(255, 230, 230);
+}
+
+#renewGame{
+	text-transform: uppercase;
+	background:white;
+	color: black;
+	border: 0;
+	transition:all 0.4s;
+	font-family:"Lucida Console"; 
+	font-size:20px;
+	outline:none;
+}
+
+#renewGame:hover{
+	background-color:rgb(255, 230, 230);
+}
+/*#message{
+	color:black;
+}*/
+button{
+	height:100%;
+}
+.mode{
+	text-transform: uppercase;
+	background-color:white;
+	border: 0; 
+	background-position: top;
+	transition:all 0.4s;
+	font-family:"Lucida Console"; 
+	font-size:20px;
+	outline:none;
+}
+
+/*.hard{
+	text-transform: uppercase;;
+	background-color: white;
+	border: 0;
+	transition:all 0.4s;
+	font-family:"Lucida Console"; 
+	font-size:20px;
+}*/
+
+.modeSelected{
+	color:black;
+	background-color:rgb(255, 230, 230); 
+}
